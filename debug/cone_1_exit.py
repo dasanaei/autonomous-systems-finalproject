@@ -10,8 +10,8 @@ def main():
     state_msg = ModelState()
 
     state_msg.model_name = 'catvehicle'
-    state_msg.pose.position.x = 175
-    state_msg.pose.position.y = 99
+    state_msg.pose.position.x = 40
+    state_msg.pose.position.y = -1
     state_msg.pose.position.z = 0.0
     state_msg.pose.orientation.x = 0
     state_msg.pose.orientation.y = 0
